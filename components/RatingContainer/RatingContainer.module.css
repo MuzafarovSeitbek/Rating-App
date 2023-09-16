@@ -1,0 +1,30 @@
+.container {
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*height: 700px;*/
+  margin: 120px auto;
+  border-radius: 20px;
+  background: hsl(213, 19%, 18%);
+  padding: 30px 30px 60px;
+}
+.selected {
+  width: 200px;
+  margin: 15px 0 5px;
+  text-align: center;
+  padding: 5px;
+  background: hsl(217, 17%, 20%);
+  border-radius: 50px;
+  color: hsl(25, 97%, 53%);
+  font-size: 15px;
+}
+.title {
+  margin: 15px 0;
+}
+.text {
+  font-size: 15px;
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+}
